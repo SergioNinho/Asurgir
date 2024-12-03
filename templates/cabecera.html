@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Somos la mejor opción para tu empresa, excelente equipo de especialistas en programacion y diseño web, marketing digital y diseño grafico. Contactate con nosotros">
+	<meta name="keywords" content="diseño grafico, marqueting digital, programacion web, diseño web">
+    <link rel="stylesheet" type="text/css" href=" {{url_for('static', filename='css/style.css')}}">
+    <link rel="shortcut icon" href="{{url_for('static', filename='imagenes/SURGIR.jpg')}}">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='js/contacto.js')}}"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="encabezado"> 
+            <section class="min">
+                <input type="checkbox" id="btn-menu">
+                <label for="btn-menu"><img src="{{url_for('static', filename='imagenes/logomenu.svg')}}"></label><br>
+                <nav class="desplegable">
+                    <ul>
+                        <li><a href="/">Início</a> </li>                        
+                        <li><a href="/programacionweb">Programación y diseño web</a></li>
+                        <li><a href="/diseñografico">Diseño grafico</a> </li>
+                        <li><a href="/marketingdigital">Marketing digital</a></li>
+                        <li id="auto" ><a href="/contactanos" target="_blank"> Contáctanos</a></li>
+                    </ul>
+                </nav>
+            </section>                
+            <section >     
+              <img src="{{url_for('static', filename='imagenes/ASURGIRLOGO.png')}}" alt="logo a surgir" class="animate__animated animate__flipInY animate__faster animate__slower">
+                <div class="header-cont-redes">
+                    <section class="redes-logo">
+                        <div class="header-redes" width="300px" >
+                            <a href="https://api.whatsapp.com/send?phone=573160549250&text=Gracias%20por%20contactar%20nuestros%20servicios,%20en%20que%20te%20podemos%20ayudar?" target="_blank"><img src="{{url_for('static', filename='imagenes/whatsapp.png')}}" alt="logo whatsapp"></a>
+                            <a href="https://www.facebook.com/profile.php?id=100092173749217&mibextid=ZbWKwL" target="_blank"><img src="{{url_for('static', filename='imagenes/facebook.png')}}" alt="logo de facebook"></a>
+                            <a href="https://www.youtube.com/channel/UClVK1jPhCte2Rrsk570zt8A" target="_blank"><img src="{{url_for('static', filename='imagenes/youtube.png')}}" alt="logo de youtube"></a>
+                            <a href="https://www.linkedin.com/in/sergio-ni%C3%B1o-725198171/" target="_blank"><img src="{{url_for('static', filename='imagenes/linkedin.png')}}" alt="logo de linkedin"></a>
+                            <a href="mailto:comercial@asurgir.es" target="_blank"><img src="{{url_for('static', filename='imagenes/email.png')}}" alt="logo de correo"></a>
+                        </div>
+                               
+                    </section>
+                </div>
+                 
+            </section>        
+        </div> 
+        <div>
+            <div>
+                <section class="menu"> 
+                    <nav>
+                        <a href="/">Início</a>                  
+                        <a href="/programacionweb">Programación y diseño web</a>             
+                        <a href="/diseñografico">Diseño grafico</a> 
+                        <a href="/marketingdigital">Marketing digital</a>
+                        <i id="abrir_form" >Contáctanos</i> 
+                                 
+                    </nav>
+                    
+                </section>           
+ 
+            </div>  
+            <div class='usos'>                
+                <h3>¡Aprovecha nuastras herrmientas totalmente gratis!</h3>
+                <div class='usos2'>
+                    <a href='/descarga_de_youtube' >Descarga de YouTube</a>
+                    <a href='/video_a_texto' >Convierte video a texto</a>
+                    <a href='/De_PDF_a_Word' >De PDF a Word</a>                   
+                </div>
+                <div class="usos2">
+                    <a href="/descarga_insta">Descargar de instagram</a>
+                    <a href="/descarga_face">Descargar de Facebook</a>
+                    <a href="/descarga_x">Descargar de X</a>
+                </div>
+                
+                
+
+            </div>          
+        </div> 
+        
+        
+
+    </header>
+
