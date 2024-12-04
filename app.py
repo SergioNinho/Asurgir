@@ -3,7 +3,7 @@ from flask import Flask, render_template,render_template_string, request, Respon
 import os
 from os import remove
 from pathlib import Path
-from flask_mysqldb import MySQL
+# from flask_mysqldb import MySQL
 from werkzeug.utils import secure_filename
 import time
 # import aspose.words as aw
@@ -16,13 +16,13 @@ from DescargaYoutube.descargar_x import bajar_x
 
 app = Flask(__name__)
 # app.secret_key="asurgir"
-mysql= MySQL()
+# mysql= MySQL()
 
-app.config['MYSQL_HOST']='localhost'
-app.config['MYSQL_USER']='root'
-app.config['MYSQL_PASSWORD']='sedasasi060904'
-app.config['MYSQL_DB']='contactanos'
-mysql.init_app(app)
+# app.config['MYSQL_HOST']='localhost'
+# app.config['MYSQL_USER']='root'
+# app.config['MYSQL_PASSWORD']='sedasasi060904'
+# app.config['MYSQL_DB']='contactanos'
+# mysql.init_app(app)
 
 
 @app.route('/')
